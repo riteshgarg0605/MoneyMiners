@@ -25,7 +25,9 @@ function Profile() {
         <h2>Mobile</h2>
         <p>0000000000</p>
       </div>
-      <button>SignOut</button>
+      <button type="submit" onClick={() => (window.location = "/")}>
+        SignOut
+      </button>
     </div>
   );
 }
